@@ -1,4 +1,4 @@
-# Exoplanet Atmosphere Classification
+# Exoplanet Spectra Classification
 
 This project explores the use of machine learning and deep learning models to detect water and clouds in exoplanet atmospheres using simulated spectral data.
 
@@ -6,7 +6,7 @@ The work was developed as part of an AI challenge related to the ARIEL space mis
 
 ## Objective
 
-Classify whether an exoplanet atmosphere contains:
+The goal is to classify whether an exoplanet atmosphere contains:
 
 - water vapor
 - clouds
@@ -15,7 +15,7 @@ based on spectral observations.
 
 ## Methods
 
-Several machine learning approaches were explored:
+Several machine learning and deep learning approaches were explored:
 
 - Random Forest
 - XGBoost
@@ -24,7 +24,16 @@ Several machine learning approaches were explored:
 
 ## Dataset
 
-The dataset consists of simulated exoplanet spectra with 52 spectral points and additional physical parameters describing the planetary system.
+The dataset contains simulated spectra of exoplanets with additional physical parameters describing the planetary system.
+
+If the full dataset is too large for GitHub, it can be downloaded from Kaggle.
+
+## Repository Structure
+exoplanet-spectra-classification
+│
+baseline.ipynb # baseline machine learning model
+report.pdf # full project report
+data/ # dataset used for training
 
 ## Technologies
 
